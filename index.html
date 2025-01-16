@@ -1,16 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Test</title>
+    <title>Sarah Drasner's Site</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
+
 <body>
     <div class="main">
         <div class="navbar">
+            <a href="./index.html">
+                <h2>SARAH DRASNER</h2>
+            </a>
             <ul>
-                <li><H2>SARAH DRASNER</H2></li>
                 <li>WRITING</li>
                 <li>SPEAKING</li>
                 <li>PROJECTS</li>
@@ -18,59 +30,64 @@
         </div>
     </div>
 
-    <div class="img_1">
-        <img src="./img1.svg" alt="">
-        <div class="headings">
-        <h1 class="heading_1">I MAKE THINGS</h1>
-        </div>
+    <div class="hero-sec">
+        <h1 class="heading">I MAKE THINGS</h1>
     </div>
 
-    <div class="img_1">
-        <img src="./img2.svg" alt="">
-        <div class="heading_2">
-        <h1 class="heading_1">ABOUT ME</h1>
-        </div>
+    <div class="about-sec">
+        <h2 class="">ABOUT ME</h2>
         <div class="box">
-            <p>Sarah Drasner is an award-winning Speaker, VP of Developer Experience at Netlify, Vue core team member, and Staff Writer at CSS-Tricks. Sarah is formerly Principal Lead of Emerging Markets, Cloud Advocates at Microsoft and Manager of UX & Engineering at Trulia/Zillow Group. She’s the author of SVG Animations from O’Reilly and has given Frontend Masters workshops. Sarah is a co-organizer of ConcatenateConf, a free conference for Nigerian and Kenyan developers. Sarah is also the co-founder of Web Animation Workshops with Val Head. She has worked for 15 years as a web developer, and at points worked as a Scientific Illustrator and a Professor in the Greek Islands.</p>
-        <img src="./img3.svg" alt="">
+            <img src="./img3.svg" alt="">
+            <p>Sarah Drasner is an award-winning Speaker, VP of Developer Experience at Netlify, Vue core team member,
+                and Staff Writer at CSS-Tricks. Sarah is formerly Principal Lead of Emerging Markets, Cloud Advocates at
+                Microsoft and Manager of UX & Engineering at Trulia/Zillow Group. She’s the author of SVG Animations
+                from O’Reilly and has given Frontend Masters workshops. Sarah is a co-organizer of ConcatenateConf, a
+                free conference for Nigerian and Kenyan developers. Sarah is also the co-founder of Web Animation
+                Workshops with Val Head. She has worked for 15 years as a web developer, and at points worked as a
+                Scientific Illustrator and a Professor in the Greek Islands.</p>
+            <div class="social">
+                <a href="https://twitter.com/sarah_edo"><i class="fa-brands fa-twitter"></i></a>
+                <a href="https://github.com/sdras"><i class="fa-brands fa-github"></i></a>
+                <a href="https://codepen.io/sdras/"><i class="fa-brands fa-codepen"></i></a>
+            </div>
         </div>
     </div>
 
-<div class="main_1">
-    <div class="img_1">
-        <img src="./img4.svg" alt="">
-
-        <div class="main_2">
-        <p data-v-565688c0="">
-            <label for="name" data-v-565688c0="">
-            Name
-            <br data-v-565688c0=""> 
-            <input id="name" type="name" name="name" data-v-565688c0=""></label></p>  
-
-        <p data-v-565688c0="">
-                <label for="name" data-v-565688c0="">
-                Email
-                <br data-v-565688c0=""> 
-                <input type="email" name="" id=""></label></p> 
-
-        <p data-v-565688c0="">
-                    <label for="name" data-v-565688c0="">
+    <div class="contact-sec">
+        <div class="formarea">
+            <h2>SAY HELLO</h2>
+            <form action="#">
+                <label for="name">
+                    Name
+                    <input id="name" type="text"></label>
+                <label for="email">
+                    Email
+                    <input type="email" id="email"></label>
+                <label for="msg">
                     MESSAGE
-                    <br data-v-565688c0=""> 
-                    <input type="text" name="" id=""></label></p> 
-                    <button class="BTN">SEND</button>
-                    <div class="heading_3">
-                            <H1>SAY HELLO</H1>
-                    </div>
+                    <textarea id="msg"></textarea>
+                </label>
+                <button class="btn">SEND</button>
+            </form>
         </div>
     </div>
-</div>
 
-<div class="footer">
-    
-
-</div>
+    <div class="footer">
+        <ul>
+            <li>WRITING</li>
+            <li>SPEAKING</li>
+            <li>PROJECTS</li>
+        </ul>
+        <hr class="hr">
+        <p>All materials © Sarah Drasner 2021</p>
+        <div class="social">
+            <a href="https://twitter.com/sarah_edo"><i class="fa-brands fa-twitter"></i></a>
+            <a href="https://github.com/sdras"><i class="fa-brands fa-github"></i></a>
+            <a href="https://codepen.io/sdras/"><i class="fa-brands fa-codepen"></i></a>
+        </div>
+    </div>
 
 
 </body>
+
 </html>
